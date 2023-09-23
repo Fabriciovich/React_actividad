@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+#cabecera {
+  width: 210vh;
+  margin-bottom: 30px;
+  background-color: rgb(165, 165, 165);
+}
+
+.logo {
+  background-image: url(../assets/logo.png);
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  transition: 0.1s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  background-image: url(../assets/logo_hover.png);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  background-color: #4b4b4b;
+}
+
+section {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+}
+
+.busquedaCuadro {
+  width: 100%; 
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.busquedaCuadro input,
+.busquedaCuadro button {
+  width: 100%;
+  max-width: 100%; 
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px rgba(0, 0, 0, 0.221) solid;
+  border-radius: 5px;
+}
+
+aside {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-right: 20px;
+}
+
+.carrusel {
+  width: 100%;
+  max-width: 400px; 
+  border: 5px rgba(0, 0, 0, 0.061) solid;
+  border-radius: 5px;
+}
+
+.carrusel .btn-next {
+  background-color: rgba(0, 0, 0, 0.158);
+  height: 10%;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.universidadesDestacadas {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px; 
+}
+
+.universidadesDestacadas h1 {
+  text-align: center;
+  width: 100%; 
+}
+
+.universidadDestacada {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carreraDestacada {
+  width: 100%;
+  max-width: 400px; 
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.049);
+}
+
+.btn-verMas {
+  width: fit-content;
+  padding: 8px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.verMasUniv {
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.221);
+  border-radius: 5px;
+  padding: 4px 8px;
+}
